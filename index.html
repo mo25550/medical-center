@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مركز الفؤاد الطبي</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <header class="navbar">
+        <div class="logo">
+            <h1>الفؤاد</h1>
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#specialties">التخصصات</a></li>
+                <li><a href="#hours">مواعيد العمل</a></li>
+                <li><a href="#Bookingnow">احجز الان</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hello">
+            <h2>مع الفؤاد حجزك بقى اسهل</h2>
+            <p>ليه تنزل المركز وتتعب نفسك وانت ممكن تحجز بالتليفون</p>
+          <span class="arrow"><a href="#Bookingnow">&larr;</span>للحجز اضغط هنا</a>
+        </section>
+        <section id="specialties">
+            <h2>تخصصات المركز الطبى</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>🦷طب اسنات</h3>
+                </div>
+                <div class="card">
+                    <h3>باطنة</h3>
+                </div>
+                <div class="card">
+                    <h3>اطفال</h3>
+                </div>
+                <div class="card">
+                    <h3>عظام</h3>
+                </div>
+            </div>
+        </section>
+        <section id="hours">
+            <h2>مواعيد العمل الرسمية</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>اليوم</th>
+                        <th>ساعات العمل</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>من السبت الى الاربعاء</td>
+                        <td>5م-9م</td>
+                    </tr>
+                    <tr>
+                        <td>الخميس</td>
+                        <td>5م-7م</td>
+                    </tr>
+                    <tr>
+                        <td>الجمعة</td>
+                        <td>مغلق</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <form id="Bookingnow">
+            <label for="username">اسم المريض</label>
+            <input id="username" type="text" required><br><br>
+            <label for="tel">رقم الهاتف</label>
+            <input id="tel" type="tel" required><br><br>
+            <label for="specialty">قائمة التخصصات</label>
+            <select id="specialty">
+                    <option value="">اختر التخصص</option>
+                    <option value="dental">طب الاسنان</option>
+                    <option value="1">باطنة</option>
+                    <option value="عظام">عظام</option>
+            </select><br><br>
+            <label for="day">اختيار اليوم</label>
+            <select id="day">
+            <option value="">السبت</option>
+            <option value="">الاحد</option>
+            <option value="">الاثنين</option>
+            <option value="">الثلاثاء</option>
+            <option value="">الاربعاء</option>
+            <option value="">الخميس</option>
+            </select><br><br>
+            <label for="time">صباحا ام مسائا</label>
+            <select id="time">
+                <option value="">صباحا</option>
+                <option value="">مسائا</option>
+            </select><br><br>
+            <button type="submit" class="btn">تأكيد الحجز</button>
+        </form>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div>
+                <h3>تواصل معنا</h3>
+                <ul>
+                    <li>العنوان:testing</li>
+                    <li>رقم التواصل:01000000000</li>
+                    <li>المواعيدي:يوميا من 5مساءحتى 9مساء</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>جميع الحقوق محفوظة &copy;2026</p></div>
+    </footer>
+ </body>
+</html>
