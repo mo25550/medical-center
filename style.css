@@ -16,7 +16,6 @@ body{
     color: #0284c7;
     background-color: #ffffff;
     display: flex;
-    flex-flow: row;
     justify-content: space-between;
     padding: 15px 25px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
@@ -24,15 +23,16 @@ body{
 .nav-links ul{
     list-style: none;
     display: flex;
-    gap: 40px;
+    gap: 30px;
 }
 .nav-links a{
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    transition: 0.2s;
 }
 .nav-links a:hover{
-    color: blue;
+    color: #0284c7;
 }
 .hello{
     background-color: #0284c7;
@@ -40,8 +40,15 @@ body{
     text-align: center;
     padding: 80px 20px;
 }
+.hello h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
 .hello a{
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     background-color: #ffffff;
     border-radius: 8px;
     text-decoration: none;
@@ -49,9 +56,10 @@ body{
     padding: 12px 30px;
     font-weight: bold;
     margin-top: 20px;
+    transition: 0.3s;
 }
 .hello a:hover{
-    color:blue
+    color:#f1f5f9;
 }
 .arrow{
     font-size: 40px;
