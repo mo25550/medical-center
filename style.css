@@ -1,7 +1,9 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden; /* بيمنع الصفحة تتحرك يمين وشمال على الموبايل */
+    margin: 0;
+    padding: 0;
 }
 html{
     scroll-behavior: smooth;
